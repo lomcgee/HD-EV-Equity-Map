@@ -24,6 +24,8 @@ HD EVEQ Map interprets proposed optimal charging station locations produced from
 Proposed charging station locations appear as red dots on the map and the desired number of nearest census block groups surrounding each charging station is inputted by the user in the cell starting with "#Specify the number of block groups you want to display." The number of block groups is inputted in "block_groups = " and analyzed.
 
 ### Downloading Data
+**It appears the links below are out of date. Please contact Liam McGee and I will send you the necessary zip files. My email is lomcgee@calpoly.edu and my phone number is (505) 252-7756.**
+
 The block groups are assigned a Disadvantaged Community (DAC) Index which is created by analyzing 20 equity metrics from an EPA dataset to find the relative level of disadvantage experienced by each community. **Download the EPA dataset on the EPA's Download EJScreen Data webpage, https://www.epa.gov/ejscreen/download-ejscreen-data, by clicking "Download Geodatabase of National EJScreen Data at the Block Group Level."** **Update the path in the lines "zip_path = *path*" and "extracted_path = *path*" to wherever the files are saved on your local machine.** Note: the data used when creating this tool was released in July 2024. 
 A higher DAC Index indicates a community is at more of a disadvantage relative to other communities. The block groups are colored using a color scale which corresponds to their DAC Index score. 
 
