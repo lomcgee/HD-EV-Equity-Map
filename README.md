@@ -46,4 +46,4 @@ In the cell beginning with "#Input the type of charging station..." the user can
 ### Saving Note
 Clear all outputs before closing/saving the jupyter notebook on a local machine. Saving without clearing outputs will make the final save incredibly large and can cause problems when trying to open the jupyter notebook again.
 
-For any questions contact Liam McGee, lomcgee@calpoly.edu or Nadia Panossian at nadia.panossian@nrel.gov.
+For any questions contact Liam McGee, lomcgee@calpoly.edu.
